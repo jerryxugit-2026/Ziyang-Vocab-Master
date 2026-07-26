@@ -5,6 +5,8 @@ open-source vocabulary tool that turns your own PDFs into a study deck.
 
 Browser-only · your data never leaves your machine · free, no accounts, no paywall · registered software copyright (软件著作权)
 
+**[▶ Use it right now — no download, no signup](https://jerryxugit-2026.github.io/Build-Vocab-Master/Ziyang_Vocab_Master.html)**
+
 ---
 
 ## Why I built it
@@ -32,8 +34,9 @@ telemetry: the deck you build is yours, stored locally, full stop.
 
 ## Getting started
 
-Download `Ziyang_Vocab_Master.html`, open it in a modern browser
-(Chrome / Edge / Safari), and bring a PDF. For the AI enrichment you
+[Open it live](https://jerryxugit-2026.github.io/Build-Vocab-Master/Ziyang_Vocab_Master.html) —
+or download `Ziyang_Vocab_Master.html` and open it in a modern browser
+(Chrome / Edge / Safari). Either way, bring a PDF. For the AI enrichment you
 supply your own free-tier Gemini API key — the app talks to Google
 directly from your browser, never through anyone else's server.
 
