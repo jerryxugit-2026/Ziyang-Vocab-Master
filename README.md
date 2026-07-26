@@ -3,7 +3,7 @@
 Study the words you actually meet, not someone else's list. A free,
 open-source vocabulary tool that turns your own PDFs into a study deck.
 
-Browser-only · your data never leaves your machine · free, no accounts, no paywall
+Browser-only · your data never leaves your machine · free, no accounts, no paywall · registered software copyright (软件著作权)
 
 ---
 
