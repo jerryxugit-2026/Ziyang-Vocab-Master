@@ -1,83 +1,51 @@
-# 🎓 Ziyang Vocab Master (Public Welfare Edition) ✨
+# Ziyang Vocab Master
 
-**Author:** Ziyang Xu 👨‍🎓
-**Grade:** 10th Grade (High School Affiliated to Beijing Normal University - BNU) 🏫
-**License:** Open Source & 100% Free (Public Welfare Software) 💖
+Study the words you actually meet, not someone else's list. A free,
+open-source vocabulary tool that turns your own PDFs into a study deck.
 
-> *"Convert your textbooks and reading materials into an AI-powered, personal vocabulary database!"* 🚀
-> *(把你的课本和阅读材料，一键转化为 AI 智能驱动的个人专属词库！)*
+Browser-only · your data never leaves your machine · free, no accounts, no paywall
 
 ---
 
-## 🌐 Languages
+## Why I built it
 
-🇬🇧 English
-🇨🇳 Chinese 中文
-🇰🇷 한국어 (Coming Soon)
-🇺🇦 Українська (Coming Soon)
-🇷🇺 Русский (Coming Soon)
-🇯🇵 日本語 (Coming Soon)
-🇪🇸 Español (Coming Soon)
+Every vocabulary app I tried wanted me to study *its* word list. But the
+words I actually needed were sitting in my own textbooks and past exam
+papers. So the tool starts from your PDF, not from a curriculum.
 
----
+And one conviction, kept from day one: **great educational tools shouldn't
+be hidden behind paywalls.**
 
-## 🤔 The Problem (Why I built this)
+## How it works
 
-Hi everyone! As a high school student struggling with English vocabulary every day, I realized that existing apps have a **huge pain point**:
+1. **PDF extractor.** Drop in a textbook or exam paper; it pulls candidate
+   vocabulary, filters the common-word noise, and exports clean CSV.
+2. **AI word factory.** Gemini enriches each word — IPA, definitions,
+   roots and etymology, synonyms/antonyms, collocations, example
+   sentences — and Pexels supplies an image cue.
+3. **Flashcards with spaced repetition.** Four study modes: association,
+   context, spelling, and pronunciation (your microphone, your voice).
+   On a Mac, right-click any word into the system dictionary.
 
-**They force you to study "their pre-defined word lists"!** 😩
+Everything runs in the browser. There is no server, no account, no
+telemetry: the deck you build is yours, stored locally, full stop.
 
-In real life, we study from specific textbooks, handouts from teachers, or past exam papers (like GRE, SAT). We have our own lists of words we actually need to master. But trying to import these words into mainstream apps is either impossible, incredibly tedious, or requires a **VIP subscription**! 💸
+## Getting started
 
-That's why I built **Ziyang Vocab Master**! 
+Download `Ziyang_Vocab_Master.html`, open it in a modern browser
+(Chrome / Edge / Safari), and bring a PDF. For the AI enrichment you
+supply your own free-tier Gemini API key — the app talks to Google
+directly from your browser, never through anyone else's server.
 
-It's a **100% free, public welfare, and open-source** software with zero commercial intent. My goal is to help students like me easily turn any PDF handout into a "Super AI Vocabulary Book" complete with example sentences, pronunciation, and images! 💪
+## What this doesn't do
 
----
-
-## 🚀 Cool Features
-
-This is an **All-in-One** web application that runs entirely in your local browser. Your data stays on your computer—**complete privacy**! 🔒 It works in three simple steps:
-
-### 📄 1. PDF Vocabulary Extractor
-Stop typing manually! Just drop your PDF (like GRE 24 Sets) into the app:
-- 🤖 **Auto-Scan:** Automatically extracts target words from the document.
-- 🧹 **Smart Filter:** Removes common "noise" words like "the, and, is".
-- 📥 **Clean Export:** Get a neat CSV list of your custom vocabulary.
-
-### 🤖 2. AI Word Factory
-Once you have your list, let AI do the heavy lifting:
-- ✨ **Gemini AI Magic:** Automatically fetches IPA phonetics, precise definitions, roots, synonyms, antonyms, and even **contextual collocations and example sentences**!
-- 🖼️ **Visual Aids:** Automatically grabs high-quality images from Pexels to help you memorize visually.
-- 💾 **Database Export:** Save everything into a rich, enriched vocabulary database.
-
-### 🧠 3. Immersive Flashcard Study
-Time to master the words! Use scientific spaced-repetition to crush your list:
-- 💡 **[1] Association:** Check the root or synonyms—can you remember it?
-- 📖 **[2] Context:** Review sentences and scene-based usage.
-- ⌨️ **[3] Spelling Challenge:** Test if you can actually spell it correctly.
-- 🎤 **[4] Pronunciation Check:** Use your mic to test your speaking!
-- 🍎 **macOS Integration:** Right-click any word to instantly trigger the native system dictionary!
+- No cloud sync — local-first is the point, but it means your deck lives
+  in one browser unless you export it.
+- Extraction quality follows PDF quality; scanned image-PDFs need OCR
+  first.
+- AI-generated entries are drafts to be read critically, not gospel.
 
 ---
 
-## 💻 How to Use
-
-It's super simple! ✋
-
-1. **Download:** Save `Ziyang_Vocab_Master.html` to your computer.
-2. **Open:** Double-click to open it in Chrome, Edge, or Safari.
-3. **Navigate:** 
-   - **Tab 1:** Extract words from PDFs.
-   - **Tab 2:** Use your API Key to enrich words with AI.
-   - **Tab 3:** Start your immersive study session! 🎉
-
----
-
-## 💖 Public Welfare & Open Source
-
-I believe that **great educational tools shouldn't be hidden behind paywalls**. 
-
-If you're a student struggling with vocab, a teacher looking to help your class, or a developer interested in the code, feel free to use, share, and modify this project!
-
-Let's make learning simple and fun again! ✨🚀
+*One of four directions on [my profile](https://github.com/jerryxugit-2026) —
+physics, art history, AI tooling, and public systems.*
