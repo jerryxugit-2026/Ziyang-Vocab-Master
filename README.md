@@ -40,6 +40,11 @@ or download `Ziyang_Vocab_Master.html` and open it in a modern browser
 supply your own free-tier Gemini API key — the app talks to Google
 directly from your browser, never through anyone else's server.
 
+## Dates, plainly
+
+I built this in 2024, for my own studying; it came to GitHub, free and
+open-source, in May 2026. Commit dates mark the release, not the building.
+
 ## What this doesn't do
 
 - No cloud sync — local-first is the point, but it means your deck lives
